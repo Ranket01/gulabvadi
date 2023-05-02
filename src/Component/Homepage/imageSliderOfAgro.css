@@ -1,0 +1,57 @@
+#imagesliderdivofagro {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 38rem;
+  left: 5rem;
+  height: 50%;
+}
+
+#imagesliderdivofagro img {
+  width: 22.5rem;
+  margin-top: 6.5rem;
+}
+#imagesliderdivofagro h4 {
+  padding: 3rem;
+  padding-top: 10rem;
+}
+
+#divforbeforecontent {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 77%;
+  top: 34.5rem;
+  left: 0;
+  background: rgb(252, 248, 240);
+  z-index: -100;
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens with width up to 768px */
+    #imagesliderdivofagro {
+      top: 20rem; /* Adjust as needed for mobile layout */
+      left: 2rem; /* Adjust as needed for mobile layout */
+      height: 40%; /* Adjust as needed for mobile layout */
+      flex-direction: column; /* Change flex-direction for mobile layout */
+      align-items: flex-start; /* Change align-items for mobile layout */
+    }
+  
+    #imagesliderdivofagro img {
+      width: 90%; /* Make image width 100% for mobile layout */
+      padding-top: 15rem; /* Remove margin-top for mobile layout */
+    }
+  
+    #imagesliderdivofagro h4 {
+      padding: 1rem; /* Adjust padding as needed for mobile layout */
+      padding-top: 2rem; /* Adjust padding-top as needed for mobile layout */
+      text-align: justify; /* Change text-align for mobile layout */
+      font-size: 1rem;
+      padding-right: 3rem;
+    }
+  
+    #divforbeforecontent {
+      top: 16rem; /* Adjust as needed for mobile layout */
+      height: 156%; /* Adjust as needed for mobile layout */
+    }
+  }

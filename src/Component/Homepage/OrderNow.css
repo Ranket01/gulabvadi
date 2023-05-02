@@ -1,0 +1,96 @@
+.order-now {
+    
+    color: #fff;
+    padding: 50px;
+  }
+
+  #divforbeforecontenttestimonialA {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 94%;
+    top: 43.5rem;
+    left: 0;
+    background-image: url("../Homepage/Images/bgfororder.jpg");
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    /* background: rgb(221 244 215); */
+    z-index: -100;
+  }
+
+  
+  .order-now-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .order-now-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  .order-now-content p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    color: black;
+  }
+  
+  .order-now-buttons a {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .order-now-buttons a:hover {
+    background-color: #f1c40f;
+    color: #fff;
+    transform: translateY(-5px);
+  }
+  
+  .whatsapp-button i {
+    margin-right: 10px;
+  }
+  
+  .inquire-button {
+    background-color: transparent;
+    border: 2px solid #fff;
+  }
+  
+  .callback-button {
+    background-color: #f1c40f;
+    color: #fff;
+  }
+
+  @media (max-width:768px){
+    .order-now-content p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+      }
+      .order-now-content h2 {
+        font-size: 42px;
+        margin-bottom: 15px;
+      }
+      .order-now {
+        padding: 25px;
+      }
+
+
+      #divforbeforecontenttestimonialA {
+        width: 100%;
+        height: 104%;
+        top: 33.5rem;
+      }
+
+
+  }
+  

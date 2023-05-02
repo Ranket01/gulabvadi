@@ -1,0 +1,11 @@
+#adminpanelmaindiv{
+  width: 63%;
+  margin: 20px auto;
+}
+
+@media(max-width:768px){
+  #tableForList{
+    position: relative;
+    left: -35px
+  }
+}

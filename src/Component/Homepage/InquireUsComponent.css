@@ -1,0 +1,91 @@
+.inquire-us-container {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .inquire-us-heading {
+    text-align: center;
+    margin:2rem
+  }
+  
+  .inquire-us-form {
+    margin-top: 20px;
+  }
+  
+  
+  #textarea,
+  #myname,
+  #myemail,
+  #myphone {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .feedback-type-container {
+    margin-top: 20px;
+  }
+  
+  .feedback-type-label {
+    margin-right: 10px;
+  }
+  
+  .send-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+  .send-button:hover {
+    
+    background-color: #008241;
+  }
+
+  
+  .success-message {
+    margin-top: 20px;
+    text-align: center;
+    color: #28a745;
+  }
+  
+  .additional-info {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .phone-number,
+  .address {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  /* Media Query for Responsive Design */
+   @media (max-width: 768px) {
+    .inquire-us-container {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #textarea,
+    #myname,
+    #myemail,
+    #myphone {
+      margin-top: 5px;
+    }
+  
+    .send-button {
+      margin-top: 10px;
+    }
+  
+    .additional-info {
+      margin-top: 10px;
+    }
+  }

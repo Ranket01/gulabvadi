@@ -1,0 +1,101 @@
+ /* Style the heading */
+  .myheadingoftestimonial {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #262626;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Create a container for the graphics */
+  .graphics-container {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+  }
+  
+  /* Style the graphics */
+  .graphic {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .graphic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  /* Add a hover effect to the graphics */
+  .graphic:hover img {
+    transform: scale(1.2);
+  }
+  
+  .graphic:hover .overlay {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(100%);
+  }
+  
+  .overlay h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .overlay p {
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #divforbeforecontenttestimonial {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 105%;
+    top: 107.5rem;
+    left: 0;
+    background: rgb(221 244 215);
+    z-index: -100;
+  }
+  @media (max-width:768px){
+    #divforbeforecontenttestimonial {
+        top: 125rem; /* Adjust as needed for mobile layout */
+        height: 224%; /* Adjust as needed for mobile layout */
+      }
+      .graphics-container {
+       width:85%
+      }
+      .myheadingoftestimonial {
+        font-size: 2rem;
+      }
+  }
+  

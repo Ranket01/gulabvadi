@@ -1,0 +1,9 @@
+.imgofmycrousal{
+    height: 40rem;
+    object-fit: cover;
+}
+@media (max-width: 768px) {
+    .imgofmycrousal{
+        height: 30rem;
+        object-fit: cover; }
+}

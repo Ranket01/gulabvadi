@@ -1,0 +1,135 @@
+.mainpageclass {
+  background-color: #f6f6f6;
+  height: 79.5vh;
+}
+
+.loginformcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.loginformwrapper {
+  max-width: 400px;
+  width: 85%;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 9vh;
+}
+
+.h2name {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.inputname {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #555;
+}
+
+.submitbutton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0084ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submitbutton:hover {
+  background-color: #0073e6;
+}
+
+.togglebutton {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #0084ff;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid #0084ff;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.togglebutton:hover {
+  background-color: #0084ff;
+  color: #fff;
+}
+
+.inputcontainer {
+  position: relative;
+}
+
+.inputcontainer .label::after {
+  content: "*";
+  color: #ff0000;
+  position: absolute;
+  top: 8px;
+  right: -10px;
+}
+
+.footerclassforlogin {
+  background-color: #dcdbdb;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  padding-top: 7rem;
+}
+
+@media (max-width: 768px) {
+  .footerclassforlogin {
+    position: relative;
+  }
+  .mainpageclass {
+    height: 68.5vh;
+  }
+  .footerclassforlogin {
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* .loginformwrapper {
+    padding: 20px;
+  } */
+
+  .h2name {
+    font-size: 20px;
+  }
+
+  .inputname {
+    font-size: 14px;
+  }
+
+  .submitbutton {
+    font-size: 14px;
+  }
+
+  .togglebutton {
+    font-size: 14px;
+  }
+}

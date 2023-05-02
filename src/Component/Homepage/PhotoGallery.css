@@ -1,0 +1,44 @@
+.photo-gallery-container {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 70rem;
+    margin-bottom: 5rem;
+  }
+
+  .photogalleryheading{
+    width: 100%;
+    margin-top: 64rem;
+    position: absolute;
+  }
+  .photogalleryheading h1{
+    text-align: center;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    overflow: hidden;
+    width: 100%; /* Set the width to 100% to ensure the images are displayed in a row */
+  }
+  
+  .photo-gallery-image {
+    flex: 0 0 auto;
+    height: 400px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .photo-gallery-container {
+      margin-top: 92rem;
+    }
+    .photogalleryheading{
+      width: 100%;
+      margin-top: 88rem;
+      position: absolute;
+    }
+    .photo-gallery-image {
+      height: 300px;
+    }
+  }
+  
