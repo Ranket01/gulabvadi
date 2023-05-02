@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/gulabvadi/static/css/main.20c742fe.css",
+    "main.js": "/gulabvadi/static/js/main.9c2e662f.js",
+    "static/js/787.c0818ed2.chunk.js": "/gulabvadi/static/js/787.c0818ed2.chunk.js",
+    "static/media/videoplayback.mp4": "/gulabvadi/static/media/videoplayback.eabad66f3b0369842944.mp4",
+    "static/media/bgfororder.jpg": "/gulabvadi/static/media/bgfororder.515794f9e97f75eae736.jpg",
+    "static/media/c2.jpg": "/gulabvadi/static/media/c2.e83a365b5feb2d8ef646.jpg",
+    "static/media/fa-solid-900.ttf": "/gulabvadi/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/c3.jpg": "/gulabvadi/static/media/c3.b719c211a293c736e6be.jpg",
+    "static/media/c4.jpg": "/gulabvadi/static/media/c4.c75cb3384bef5f63d104.jpg",
+    "static/media/c6.jpg": "/gulabvadi/static/media/c6.6131835aa9f3e570552f.jpg",
+    "static/media/c1.jpg": "/gulabvadi/static/media/c1.a2187be63b3affd1d18e.jpg",
+    "static/media/c5.jpg": "/gulabvadi/static/media/c5.49bc208114f69b2fe635.jpg",
+    "static/media/img4.jpeg": "/gulabvadi/static/media/img4.b760b3f8fe2e6d784add.jpeg",
+    "static/media/rzlogo.png": "/gulabvadi/static/media/rzlogo.41c746eb83c963ec5ed5.png",
+    "static/media/fa-brands-400.ttf": "/gulabvadi/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/logotwo.png": "/gulabvadi/static/media/logotwo.ad49cbacb446d10ac5cb.png",
+    "static/media/img6.jpeg": "/gulabvadi/static/media/img6.d1502aceca4b9367288a.jpeg",
+    "static/media/fa-solid-900.woff2": "/gulabvadi/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/img5.jpeg": "/gulabvadi/static/media/img5.dd8e767fb0531b05d3e7.jpeg",
+    "static/media/logothree.png": "/gulabvadi/static/media/logothree.6f9291433b612765c0e3.png",
+    "static/media/fa-brands-400.woff2": "/gulabvadi/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/bapslogo.png": "/gulabvadi/static/media/bapslogo.e7332576f8c88c4274a5.png",
+    "static/media/fa-regular-400.ttf": "/gulabvadi/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/essarlogo.png": "/gulabvadi/static/media/essarlogo.415f1ff49e37dbb87a9b.png",
+    "static/media/gulabvadiLogo.jpeg": "/gulabvadi/static/media/gulabvadiLogo.fc9bcf8b8d023b597d20.jpeg",
+    "static/media/fa-regular-400.woff2": "/gulabvadi/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/gulabvadi/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/gulabvadi/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/gulabvadi/index.html",
+    "main.20c742fe.css.map": "/gulabvadi/static/css/main.20c742fe.css.map",
+    "main.9c2e662f.js.map": "/gulabvadi/static/js/main.9c2e662f.js.map",
+    "787.c0818ed2.chunk.js.map": "/gulabvadi/static/js/787.c0818ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c742fe.css",
+    "static/js/main.9c2e662f.js"
+  ]
+}
